@@ -1,0 +1,52 @@
+.btn{
+    color: rgb(255, 255, 255);
+    background-color: deeppink;
+    border-radius: 10px;
+    width: 80px;
+    height: 30px;
+    border: none;
+    box-shadow: 1px 1px 10px 4px rgb(241, 174, 211);
+    position: absolute;
+    top: 120px;
+    left: 110px;
+}
+
+.txt{
+    color: skyblue;
+    letter-spacing: 10px;
+    margin-top: 20px;
+    position: absolute;
+    top: 40px;
+    left: 110px;
+}
+
+.container{
+    position: relative;
+    margin: auto;
+    width: 300px;
+    height: 250px;
+    background-color: lightcyan;
+    text-align: center;
+    box-shadow: 1px 1px 10px 4px lightsteelblue;
+    border-radius: 10px;
+}
+
+.navigation{
+    background-color: brown;
+    box-shadow: 1px 1px 10px 4px rgba(209, 145, 119,0.7);
+    border-radius: 10px;
+}
+
+.navigation .navbar{
+    list-style-type: none;
+}
+
+.navigation .navbar .navlist{
+    display: inline-block;
+    padding: 10px;
+}
+
+.navigation .navbar .navlist .navlink{
+    text-decoration: none;
+    color: white;
+}
